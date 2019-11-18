@@ -14,5 +14,11 @@ Para modificar la escena, modifiqué la cantidad de cajas que se podían crear e
 ### Performance con aceleración
 
 
+![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/performance_con_aceleracion.PNG)
+![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/con_aceleracion.PNG)
+
 
 ### Performance sin aceleración
+
+![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/performance_sin_aceleracion.PNG)
+![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/sin_aceleracion.PNG)
