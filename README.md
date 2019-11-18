@@ -13,12 +13,18 @@ Para modificar la escena, modifiqué la cantidad de cajas que se podían crear e
 
 ### Performance con aceleración
 
+Para que la escena se carge con la estructura de aceleración, se deja activa la línea de código #692 `geometrygroup->setAcceleration( context->createAcceleration("Trbvh") )`. Esto da los siguientes resultados de performance: 
 
 ![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/performance_con_aceleracion.PNG)
 ![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/con_aceleracion.PNG)
 
+Como se puede observar, la cantidad de FPS para generar más de 1000 cajas con estructura de aceleración es de 47.33.
 
 ### Performance sin aceleración
 
+Ahora, para cargar los objetos sin la estructura de aceleracion, se deja activa la línes de código #693 `geometrygroup->setAcceleration( context->createAcceleration("NoAccel") );`. Esto da los siguientes resultados de performance:
+
 ![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/performance_sin_aceleracion.PNG)
 ![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/sin_aceleracion.PNG)
+
+Como se puede observar, la cantidad de FPS para generar más de 1000 cajas sin estructura de aceleración es de 1.00.
