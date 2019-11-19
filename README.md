@@ -2,7 +2,7 @@
 
 ### Performance inicial
 
-La imagen inicial del tutorial 8, sin modificaciones, entrega la siguiente gráfica de performance:
+La imagen inicial del tutorial 8, sin modificaciones, solo tiene una caja en la escena y entrega la siguiente gráfica de performance:
 
 ![imagen_inicial](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/inicial.PNG)
 ![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/original.PNG)
