@@ -5,6 +5,7 @@
 La imagen inicial del tutorial 8, sin modificaciones, entrega la siguiente gráfica de performance:
 
 ![imagen_inicial](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/inicial.PNG)
+![](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/original.PNG)
 
 Como se puede observar, hay un consumo de memoria de 433.
 
