@@ -11,7 +11,7 @@ Como se puede observar, hay un consumo de memoria de 433.
 
 ### Creación de más objetos
 
-Para agregar más objetos a la escena, modifiqué la cantidad de cajas que se podían crear en la escena. Esto se puede ver en el código [modificacion.cpp](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/modificacion.cpp). Especfíficamente, en la línea de código #276 hasta #467 se crean 23 cajas adicionales. Adicionalmente, en la línea de código #616 a la #621 se crea una variable `factor` que se usa para crear una cantidad determinada de cajas con los parámetros de la primitiva `box`. En este caso se crean 1000 cajas adicionales(`int factor = 1000;`). En las líneas de código #622 -644, se crean los GIs para las 23 cajas adicionales creadas. Finalmente, se crea el grupo de geometría de todas estas cajas creadas en las líneas de código #654 - 659. 
+Para agregar más objetos a la escena, modifiqué la cantidad de cajas que se podían crear en la escena. Esto se puede ver en el código [modificacion.cpp](https://github.com/wilmerodriguez/Estructuras-de-aceleracion/blob/master/modificacion.cpp). Especfíficamente, en la línea de código #276 hasta la #467 se crean 23 cajas adicionales. Adicionalmente, desde la línea de código #616 hasta la #621 se crea una variable `factor` que se usa para crear una cantidad determinada de cajas con los parámetros de la primitiva `box`. En este caso se crean 1000 cajas adicionales(`int factor = 1000;`). En las líneas de código #622 -644, se crean los GIs para las 23 cajas adicionales creadas. Finalmente, se crea el grupo de geometría de todas estas cajas creadas en las líneas de código #654 - 659. 
 
 ### Performance con aceleración
 
